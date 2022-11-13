@@ -1,6 +1,22 @@
+@media(min-width:767px){
+*{
+margin: 0;
+padding: 0;
 
- @media(min-width:767px){
+  }
 
+.nav-link{
+ font-size: large;
+ font-weight: 40px;
+ color: rgb(240, 243, 246);
+ margin-left: 30px;
+} 
+.nav-link:hover{
+background-color: rgb(233, 237, 237);
+border-radius:40% ;
+
+transition: all 0.3s ease;
+} 
 
  .btn{
         position: absolute;
@@ -44,6 +60,20 @@
       width: 45%;
       height: 100%;
      } 
+
+
+     .icon-mans-woomans img{
+      border-radius: 10px;
+      cursor: pointer;
+    
+     } 
+    
+     .icon-mans-woomans img:hover{
+    filter: blur(3px);
+    opacity: .5;
+    transition: all 0.2s ease;
+     }
+
      .first{
       height:100vh;
       position: relative;
@@ -109,8 +139,8 @@
     }
     
     .btn2{
-      width:80px ;
-      height:25px ;
+      width:100px ;
+      height:35px ;
       background-color:rgb(52, 48, 48);
       font-family:Inter ;
       border-radius: 10px;
@@ -123,13 +153,26 @@
     
     .input-footer{
       width:40% ;
-      height:25px ;
+      height:35px ;
+
      
+    }
+    .input-footer::placeholder{
+      position: relative;
+      left: 10%;
+      font-size: large;
     }
      .social-networks img{
       width:40px ;
       height:40px ;
       z-index: 3;
+      position: relative;
+      left: 80%;
+     }
+     .social-networks img:hover{
+      width:60px ;
+      height:60px ;
+      transition: all 0.2s ease;
      }
      
      footer{
@@ -146,11 +189,69 @@
        li{
         font-family:Inter ;
         font-size: 25px;
+        cursor: pointer;
+       }
+       ul li:hover{
+color: crimson;
        }
        .input-main{
         line-height: 1;
         padding-left: 10%;
        }
+       .card{
+        position: absolute;
+        width: 400px;
+        height: 450px;
+       left: 55%;
+       margin-top: 30%;
+       border-radius: 25%;
+       }
+       .card img{
+       position: relative;
+       border-radius: 100%;
+       
+        
+       }
+       .card-title{
+        margin-top: 65%;
+        font-weight: 100px;
+        text-align: center;
+       }
+       .card-2{
+        position: absolute;
+        width: 400px;
+        height: 450px;
+        right: 55%;
+        margin-top: 30%;
+        border-radius: 25%;
+       }
+       .card-2 img{
+        padding-top: 40%;
+        border-radius: 0% 0% 23% 23%
+    
+       }
+       .card-title1{
+        margin-top: 10px;
+        text-align: center;
+       }
+       .card-text{
+        position: relative;
+        font-size: 15px;
+        text-align: center;
+        width: 90%;
+        left: 6%;
+       }
+       
+    
+      .begroundimg{
+        display: flex;
+        justify-content: center;
+        background:url("img/under-shop1");
+        height: 100%;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom:10% ;
+      }
     }
 
 
@@ -221,8 +322,14 @@
  } 
 .icon-mans-woomans img{
   border-radius: 10px;
+  cursor: pointer;
 
  } 
+
+ .icon-mans-woomans img:hover{
+filter: blur(1px);
+ }
+
  .first{
   height:35vh;
   position: relative;
@@ -308,6 +415,8 @@ height: 100%;
   width:20px ;
   height:19px ;
   z-index: 3;
+  position: relative;
+  left: 70%;
  }
  
  footer{
@@ -329,6 +438,34 @@ height: 100%;
     line-height: 1;
     padding-left: 10%;
    }
+
+   .nav-link{
+    font-size: large;
+    font-weight: 40px;
+    color: rgb(240, 243, 246);
+    
+   } 
+   .nav-link:hover{
+   background-color: rgb(233, 237, 237);
+   color:#0d0d0c;
+   transition: all 0.3s ease;
+   }
+
+   .card-img-overlay{
+    position: relative;
+    bottom: 31%;
+    width: 90%;
+    text-align: center;
+    left: 5%;
+   }
+
+   .begroundimg2{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  right: 115%;
+  height: 0;
+  }
 }
 
 
